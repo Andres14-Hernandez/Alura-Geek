@@ -24,37 +24,25 @@
         <main class="main"> 
             <section class="main__products">
                 <h1>Mis productos</h1>
-                <ul class="main__products__items">
-                    <li>
+                <ul class="main__products__items" data-product>
+                    <!-- <li class="card">
                         <img src="assets/producto1.svg" alt="producto">
                         <div class="product__description">
                             <p>Nombre</p>
                             <div class="product__value">
                                 <p>$00.00</p>
-                                <img src="assets/trashIcon.svg" alt="Eliminar">
+                                <button class="delete__card" data-id>
+                                    <img src="assets/trashIcon.svg" alt="Eliminar">
+                                </button>
                             </div>
                         </div>
-                    </li>
-
-
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
-                    <li><p>hola</p></li>
+                    </li> -->
+                                        
                 </ul>
             </section>
             
             <!-- FORM -->
-            <section class="main__form">
+            <section class="main__form" data-form>
                 <h1>Agregar Producto:</h1>    
                 <form class="form__container" data-form>
                     <input placeholder="Nombre..." type="text" data-name>
@@ -76,6 +64,8 @@
             <p> Desarollado por Andrés Hernández</p>
             <small>Alura Latam 2024</small>
         </footer>
+
+        <script type="module" src="js/controllers/main.js"></script>
 
     </body>
 </html>
